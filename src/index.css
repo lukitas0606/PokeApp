@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+}
+
+.Navbar{
+  padding: 25px;
+  background-color: rgb(80, 72, 72);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+a{
+text-decoration: none !important;
+margin-right: 30px;
+color: inherit !important;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.active{
+  color: white !important;
+}
+.logo{
+  width: 32px;
+  height: 32px;
+  margin-right: 1200px;
+  border-radius: 50%;
+}
+.Home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 3rem;
+}
+.pikachu{
+  width: 350px;
+  height: 450px;
+}
+h1{
+  font-size: 60px !important;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.select {
+  display: grid;
+  justify-content: center;
+  margin: 4rem;
+}
